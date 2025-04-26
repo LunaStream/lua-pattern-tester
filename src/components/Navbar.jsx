@@ -1,9 +1,9 @@
-function Navbar() { 
+function Navbar() {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-dark bg-dark"
     >
-     <h1
+      <h1
         style={{
           color: "#d3d3d3",
           backgroundColor: "darkblue",
@@ -21,8 +21,8 @@ function Navbar() {
       </h1> <button
         className="navbar-toggler"
         type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
@@ -38,7 +38,7 @@ function Navbar() {
           <li className="nav-item active">
             <a className="nav-link active" aria-current="page" href="/">
               <i className="fa fa-house-user" style={{ fontSize: "20px" }}></i>
-           <br></br>  Home
+              <br></br>  Home
             </a>
           </li>
           <li className="nav-item">
@@ -80,7 +80,7 @@ function Navbar() {
               rel="noreferrer"
               href="https://github.com/reiyncode"
             >
-            
+
             </a>
           </li>
         </ul>
