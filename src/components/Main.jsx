@@ -16,7 +16,8 @@ function Main() {
           return table.concat(captures, "ˍ")
         end`)();
 
-            return func.call(inputString, inputPattern);
+            const luaResult = func.call(inputString, inputPattern);
+            return luaResult;
         } catch (error) {
             console.error("Lua execution error:", error);
             return "Error: Invalid pattern or input";
